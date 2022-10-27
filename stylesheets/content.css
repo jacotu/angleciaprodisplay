@@ -403,6 +403,7 @@ transform: rotate(-10deg);
 }
 .Row{
   display: flex;
+  margin-left: 150px;
   width: 1137px;
   align-self: center;
 }
@@ -412,6 +413,7 @@ transform: rotate(-10deg);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  margin: 40px 80px 40px 80px;
 }
 .Inscription {
   font-family: 'Anglecia Pro Display';
