@@ -400,6 +400,7 @@ transform: rotate(-10deg);
 .FontWeights {
   position: relative;
   margin: 0 auto;
+  width: inherit;
   display: flex;
   flex-direction: column;
 }
