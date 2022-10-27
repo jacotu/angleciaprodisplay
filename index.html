@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Anglecia Pro Display</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <style media="screen">
+      html {
+        background: black;
+        display: block;
+        height: 100%;
+      }
+      body {
+        width: 1440px;
+        background: black;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+      }
+
+      body::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url(images/Landing.png);
+        opacity: 0.3;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!--КОМПОЗИЦИЯ С БУКВАМИ-->
+    <div class="Books">
+      <img src="images/books.svg">
+      <div class="Naming">ANGLECIA PRO DISPLAY</div>
+      <div class="Studio">Студия: MINT TYPE / ГОД ВЫПУСКА: 2014</div>
+      <div class="VLetter">В</div>
+      <div class="BLetter">Б</div>
+      <div class="ULetter">У</div>
+      <div class="KLetter">К</div>
+    </div>
+
+    <!--ОПИСАНИЕ ШРИФТА-->
+    <section class="RedDescription">
+      <div class="RedRectangles">
+        <div class="WhiteSquare1">
+          <img class="Square1" src="images/borderbox.svg">
+        </div>
+        <div class="FirstRedRectangle"></div>
+        <div class="SecondRedRectangle"></div>
+      </div>
+    </section>
+
+  </body>
+</html>

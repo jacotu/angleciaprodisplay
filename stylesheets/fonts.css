@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-BlackIta.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-ExtLtlta.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-ExtraLight') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-Italic') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-Light') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-LightIta') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-MedIta.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-SemBdIta.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Display';
+  src: url('fonts/AngleciaProDisplay-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-BlackIta.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-ExtLtlta.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-ExtraLight') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-Italic') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-Light') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-LightIta') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-MedIta.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-SemBdIta.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}

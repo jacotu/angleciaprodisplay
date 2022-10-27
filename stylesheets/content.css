@@ -1,0 +1,173 @@
+.Books {
+  position: relative;
+  margin-top: 50px;
+}
+.Naming {
+  position: absolute;
+  width: 806px;
+  height: 64px;
+  left: 407.75px;
+  top: 220.07px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 64px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  font-feature-settings: 'ordn' on;
+
+  background: linear-gradient(90deg, #FFFEFE -28.82%, #FFFFFF 83.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: rotate(14.44deg);
+}
+.Studio {
+  position: absolute;
+  width: 908px;
+  height: 36px;
+  left: 341.29px;
+  top: 295.99px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  transform: rotate(14.43deg);
+}
+.VLetter {
+  position: absolute;
+  width: 862.99px;
+  height: 891.63px;
+  left: 1020px;
+  top: 442.86px;
+
+  font-family: 'Anglecia Pro Text';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 600px;
+  line-height: 600px;
+  text-transform: uppercase;
+
+  background: linear-gradient(222.11deg, #FFFFFF -8.85%, rgba(255, 255, 255, 0) 56.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+transform: rotate(-10deg);
+}
+.BLetter {
+  position: absolute;
+  width: 437.53px;
+  height: 646.63px;
+  left: 485.45px;
+  top: 897.22px;
+
+  font-family: 'Anglecia Pro Text';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 600px;
+  line-height: 600px;
+  text-transform: uppercase;
+
+  background: linear-gradient(222.11deg, #FFFFFF -8.85%, rgba(255, 255, 255, 0) 56.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: rotate(10deg);
+}
+.ULetter {
+  position: absolute;
+  width: 510.21px;
+  height: 465.63px;
+  left: 31.5px;
+  top: 1605.78px;
+
+  font-family: 'Anglecia Pro Text';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 600px;
+  line-height: 600px;
+  text-transform: uppercase;
+
+  background: linear-gradient(211.44deg, #FFFFFF 4.73%, rgba(255, 255, 255, 0) 60.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: rotate(-13.66deg);
+}
+.KLetter {
+  position: absolute;
+  width: 499.68px;
+  height: 530.63px;
+  left: 886.67px;
+  top: 1792px;
+
+  font-family: 'Anglecia Pro Text';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 600px;
+  line-height: 600px;
+  text-transform: uppercase;
+
+  background: linear-gradient(219.92deg, #FFFFFF -8.68%, rgba(255, 255, 255, 0) 69.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: rotate(19.49deg);
+}
+.RedDescription {
+    margin-top: 212px;
+    position: relative;
+}
+.RedRectangles {
+  max-width: 1136px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.FirstRedRectangle {
+  width: 1136px;
+  height: 930px;
+  z-index: 2;
+
+
+  background: linear-gradient(180deg, #BA1C18 0%, rgba(200, 30, 25, 0) 87.3%);
+}
+.SecondRedRectangle {
+  width: 1136px;
+  height: 930px;
+  margin-top: -300px;
+
+
+  background: linear-gradient(180deg, #BA1C18 0%, rgba(200, 30, 25, 0) 87.3%);
+}
+.WhiteSquare1 {
+  position: absolute;
+  z-index: 1;
+
+}
+.Square1 {
+  width: 1039px;
+  height: 493px;
+}
