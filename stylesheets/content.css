@@ -1,6 +1,23 @@
+p {
+  font-family: 'Anglecia Pro Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+h1 {
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 300px;
+  line-height: 300px;
+  letter-spacing: -0.05em;
+}
 .Books {
   position: relative;
-  margin-top: 50px;
+  margin: 40px 80px 40px 80px;
 }
 .Naming {
   position: absolute;
@@ -14,7 +31,6 @@
   font-weight: 900;
   font-size: 64px;
   line-height: 64px;
-  /* identical to box height */
 
   text-transform: uppercase;
   font-feature-settings: 'ordn' on;
@@ -138,7 +154,10 @@ transform: rotate(-10deg);
   transform: rotate(19.49deg);
 }
 .RedDescription {
-    margin-top: 212px;
+    margin-top: 115px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
     position: relative;
 }
 .RedRectangles {
@@ -149,7 +168,7 @@ transform: rotate(-10deg);
 .FirstRedRectangle {
   width: 1136px;
   height: 930px;
-  z-index: 2;
+  margin: -30px -89px -42px 0px;
 
 
   background: linear-gradient(180deg, #BA1C18 0%, rgba(200, 30, 25, 0) 87.3%);
@@ -157,17 +176,352 @@ transform: rotate(-10deg);
 .SecondRedRectangle {
   width: 1136px;
   height: 930px;
-  margin-top: -300px;
+  margin: -300px -89px -42px 0px;
 
 
   background: linear-gradient(180deg, #BA1C18 0%, rgba(200, 30, 25, 0) 87.3%);
 }
-.WhiteSquare1 {
+.WhiteSquare {
   position: absolute;
   z-index: 1;
 
 }
 .Square1 {
-  width: 1039px;
-  height: 493px;
+  width: 803.46px;
+  height: 535px;
+  margin: 26px 0px 0px 35px;
+}
+.Square2 {
+  width: 783.46px;
+  height: 503px;
+  margin: 25px 0px 0px 0px;
+  padding-left: 317px;
+}
+#Paragraph {
+  width: 719.17px;
+  height: 407px;
+  padding-left: -24px;
+  padding-top: 140px;
+}
+#FirstNumber {
+  width: 123px;
+  height: 300px;
+  padding-top: 150px;
+  padding-left: 80px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#SecondNumber {
+  width: 223px;
+  height: 300px;
+  padding-top: 150px;
+  padding-left: 8px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Text {
+  display: flex;
+  justify-content: space-evenly;
+}
+.FlyingLetters {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.Gradients {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.BlueGradient {
+
+  position: absolute;
+  width: 148px;
+  height: 487px;
+  left: 0px;
+  top: 3606px;
+
+  background: linear-gradient(180deg, #37A0DF 0%, rgba(55, 160, 223, 0) 100%);
+
+  position: absolute;
+  width: 148px;
+  height: 533px;
+  left: 0px;
+  top: 4095px;
+
+  background: linear-gradient(180deg, #329926 0%, rgba(50, 153, 38, 0) 100%);
+}
+.GreenGradient {
+  position: absolute;
+  width: 247px;
+  height: 482px;
+
+  background: linear-gradient(180deg, #329926 0%, rgba(50, 153, 38, 0) 100%);
+}
+.Letters {
+  position: relative;
+  margin: 0 auto;
+  width: 876px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ILetter {
+  width: 559.47px;
+  height: 700.19px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 700px;
+  line-height: 700px;
+
+  background: linear-gradient(208.26deg, rgba(255, 255, 255, 0.86) 14.44%, rgba(255, 255, 255, 0) 71.22%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: matrix(0.99, -0.13, 0.13, 0.99, 0, 0);
+}
+.TLetter {
+  width: 493.59px;
+  height: 700.02px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 700px;
+  line-height: 700px;
+
+  background: linear-gradient(159.93deg, #FFFFFF 10.1%, rgba(255, 255, 255, 0) 74.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: matrix(1, 0.05, -0.05, 1, 0, 0);
+}
+.Arrow1 {
+  position: absolute;
+  width: 150.82px;
+  height: 95.27px;
+  margin: -70px 60px 0px 72px;
+}
+.Arrow2 {
+  position: absolute;
+  margin: 193px 60px 0px 1031px;
+}
+.Ellipse1 {
+  position: absolute;
+  padding: 0px 0px 0px 220px;
+}
+.Ellipse2 {
+  position: absolute;
+  padding: 0px 0px 0px 920px;
+}
+.Stroke1{
+  margin: -125px 60px 50px -50px;
+  position: absolute;
+  width: 394.06px;
+  height: 50px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 44px;
+
+  color: #FFFFFF;
+
+  transform: matrix(1, 0.04, -0.04, 1, 0, 0);
+}
+.Stroke2{
+  margin: -65px 10px 50px 150px;
+  position: absolute;
+  width: 237.64px;
+  height: 50px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 44px;
+
+  color: #FFFFFF;
+
+  transform: matrix(1, -0.06, 0.07, 1, 0, 0);
+}
+.Stroke3{
+    margin: 440px 10px 50px 970px;
+    position: absolute;
+    width: 199.04px;
+    height: 50.01px;
+
+    font-family: 'Anglecia Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+
+    transform: matrix(0.99, -0.1, 0.1, 1, 0, 0);
+}
+.Stroke4{
+  margin: 490px 10px 50px 1000px;
+  position: absolute;
+  width: 213.25px;
+  height: 50.01px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 44px;
+
+  color: #FFFFFF;
+
+  transform: matrix(0.99, -0.1, 0.1, 1, 0, 0);
+}
+.Row{
+  display: flex;
+  margin-left: 250px;
+  width: 1137px;
+  align-self: center;
+}
+.FontWeights {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.Inscription {
+  font-family: 'Anglecia Pro Display';
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  width: 1440px;
+  height: 170px;
+
+  background: linear-gradient(180deg, #B538B5 0%, #B53838 50.52%, rgba(111, 99, 102, 0.24) 100%);
+}
+.Extralight {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: left;
+
+  color: #FFFFFF;
+
+
+  width: 1440px;
+  height: 122px;
+
+  background: linear-gradient(180deg, #636E6F 0%, rgba(99, 110, 111, 0.2) 100%);
+}
+.Light {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 350;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: left;
+
+  color: #FFFFFF;
+  width: 1440px;
+  height: 122px;
+
+
+  background: linear-gradient(180deg, #A18BBA 0%, rgba(161, 139, 186, 0.2) 100%);
+}
+.Regular {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: left;
+
+  color: #FFFFFF;
+  width: 1440px;
+  height: 122px;
+
+
+  background: linear-gradient(180deg, #8B503B 0%, rgba(139, 80, 59, 0.2) 100%);
+}
+.Medium {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: left;
+
+  color: #FFFFFF;
+  width: 1440px;
+  height: 122px;
+
+
+  background: linear-gradient(180deg, #FF5F89 0%, rgba(255, 95, 137, 0.2) 100%);
+}
+.Semibold {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: left;
+
+  color: #FFFFFF;
+  width: 1440px;
+  height: 122px;
+
+
+  background: linear-gradient(180deg, #FDC332 0%, rgba(253, 195, 50, 0.2) 100%);
+}
+.Bold {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: left;
+
+  color: #FFFFFF;
+  width: 1440px;
+  height: 122px;
+
+
+  background: linear-gradient(180deg, #FF7A53 0%, rgba(255, 122, 83, 0.2) 100%);
+}
+.Black {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: left;
+
+  color: #FFFFFF;
+  width: 1440px;
+  height: 122px;
+
+
+  background: linear-gradient(180deg, #646899 0%, rgba(100, 104, 153, 0) 100%, rgba(100, 104, 153, 0.88) 100%);
 }
