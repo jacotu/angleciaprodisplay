@@ -15,6 +15,17 @@ h1 {
   line-height: 300px;
   letter-spacing: -0.05em;
 }
+h2 {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
 .Books {
   position: relative;
   margin: 40px 80px 40px 80px;
@@ -155,7 +166,6 @@ transform: rotate(-10deg);
 }
 .RedDescription {
     margin-top: 115px;
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -393,14 +403,13 @@ transform: rotate(-10deg);
 }
 .Row{
   display: flex;
-  margin-left: 250px;
   width: 1137px;
   align-self: center;
 }
 .FontWeights {
   position: relative;
+  width: 100%;
   margin: 0 auto;
-  width: inherit;
   display: flex;
   flex-direction: column;
 }
@@ -415,7 +424,6 @@ transform: rotate(-10deg);
 
   color: #FFFFFF;
 
-  width: 1440px;
   height: 170px;
 
   background: linear-gradient(180deg, #B538B5 0%, #B53838 50.52%, rgba(111, 99, 102, 0.24) 100%);
@@ -431,7 +439,6 @@ transform: rotate(-10deg);
   color: #FFFFFF;
 
 
-  width: 1440px;
   height: 122px;
 
   background: linear-gradient(180deg, #636E6F 0%, rgba(99, 110, 111, 0.2) 100%);
@@ -445,7 +452,6 @@ transform: rotate(-10deg);
   text-align: left;
 
   color: #FFFFFF;
-  width: 1440px;
   height: 122px;
 
 
@@ -460,7 +466,6 @@ transform: rotate(-10deg);
   text-align: left;
 
   color: #FFFFFF;
-  width: 1440px;
   height: 122px;
 
 
@@ -475,7 +480,6 @@ transform: rotate(-10deg);
   text-align: left;
 
   color: #FFFFFF;
-  width: 1440px;
   height: 122px;
 
 
@@ -490,7 +494,6 @@ transform: rotate(-10deg);
   text-align: left;
 
   color: #FFFFFF;
-  width: 1440px;
   height: 122px;
 
 
@@ -505,7 +508,6 @@ transform: rotate(-10deg);
   text-align: left;
 
   color: #FFFFFF;
-  width: 1440px;
   height: 122px;
 
 
@@ -520,7 +522,6 @@ transform: rotate(-10deg);
   text-align: left;
 
   color: #FFFFFF;
-  width: 1440px;
   height: 122px;
 
 
