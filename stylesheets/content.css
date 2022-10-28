@@ -973,7 +973,8 @@ h2 {
   display: block;
   padding-top: 60px;
   margin: 0 auto;
-  width: 100%
+  width: 100%;
+  height: 1024px;
 }
 .SymbolsL {
   margin-top: -560px;
@@ -1011,7 +1012,6 @@ h2 {
 .Usage {
   position: relative;
   display: block;
-  margin-top: -1140px;
   width: 100%
 }
 .Brochures {
