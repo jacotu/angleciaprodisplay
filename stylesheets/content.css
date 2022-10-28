@@ -25,10 +25,13 @@ h2 {
   color: #FFFFFF;
   text-transform: uppercase;
   padding-top: 40px;
+  padding-bottom: 80px;
 }
 .Books {
   position: relative;
-  margin: 40px 80px 40px 80px;
+  margin: 0 auto;
+  width: 1440px;
+  overflow: hidden;
 }
 .Naming {
   position: absolute;
@@ -66,7 +69,7 @@ h2 {
   font-weight: 500;
   font-size: 36px;
   line-height: 36px;
-  /* identical to box height */
+
 
   text-align: center;
   letter-spacing: 0.1em;
@@ -172,13 +175,11 @@ transform: rotate(-10deg);
 }
 .RedRectangles {
   max-width: 1136px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 .FirstRedRectangle {
   width: 1136px;
   height: 930px;
-  margin: -30px -89px -42px 0px;
 
 
   background: linear-gradient(180deg, #BA1C18 0%, rgba(200, 30, 25, 0) 87.3%);
@@ -277,8 +278,7 @@ transform: rotate(-10deg);
 }
 .Letters {
   position: relative;
-  margin: 0 auto;
-  width: 876px;
+  margin: 0 auto 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -286,6 +286,7 @@ transform: rotate(-10deg);
 .ILetter {
   width: 559.47px;
   height: 700.19px;
+  margin-right: -45px;
 
   font-family: 'Anglecia Pro Display';
   font-style: normal;
@@ -327,7 +328,7 @@ transform: rotate(-10deg);
 }
 .Arrow2 {
   position: absolute;
-  margin: 193px 60px 0px 1031px;
+  margin: 193px 60px 0px 1000px;
 }
 .Ellipse1 {
   position: absolute;
@@ -370,7 +371,7 @@ transform: rotate(-10deg);
   transform: matrix(1, -0.06, 0.07, 1, 0, 0);
 }
 .Stroke3{
-    margin: 440px 10px 50px 970px;
+    margin: 440px 10px 50px 890px;
     position: absolute;
     width: 199.04px;
     height: 50.01px;
@@ -386,7 +387,7 @@ transform: rotate(-10deg);
     transform: matrix(0.99, -0.1, 0.1, 1, 0, 0);
 }
 .Stroke4{
-  margin: 490px 10px 50px 1000px;
+  margin: 490px 10px 50px 924px;
   position: absolute;
   width: 213.25px;
   height: 50.01px;
@@ -403,8 +404,7 @@ transform: rotate(-10deg);
 }
 .Row{
   display: flex;
-  margin-left: 150px;
-  width: 1137px;
+  width: 1136px;
   align-self: center;
 }
 .FontWeights {
@@ -413,7 +413,6 @@ transform: rotate(-10deg);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  margin: 40px 80px 40px 80px;
 }
 .Inscription {
   font-family: 'Anglecia Pro Display';
@@ -528,4 +527,643 @@ transform: rotate(-10deg);
 
 
   background: linear-gradient(180deg, #646899 0%, rgba(100, 104, 153, 0) 100%, rgba(100, 104, 153, 0.88) 100%);
+}
+.Alphabet1 {
+}
+.Alphabet {
+  position: relative;
+  display: block;
+  margin-top: 55px;
+}
+.FirstRow {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-right: 90px;
+  overflow: hidden;
+}
+.Line1 {
+  width: 381px;
+  height: 94px;
+  background: linear-gradient(270deg, #000000 19.58%, #C81E19 100%); transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.Letter{
+  width: 123.64px;
+  height: 201px;
+
+  font-family: 'Anglecia Pro Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -0.05em;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Line2 {
+  width: 381px;
+  height: 94px;
+  background: linear-gradient(270deg, #000000 19.58%, #9154A2 100%);
+  margin-right: -120px;
+}
+.SecondRow {
+  padding-left: 100px;
+  margin-top: 60px;
+  margin-right: 90px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Line3 {
+  width: 381px;
+  height: 94px;
+  background: linear-gradient(270deg, #000000 19.58%, #3659AA 100%); transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.ThirdRow {
+  padding-left: 130px;
+  margin-top: 60px;
+  margin-right: 90px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Lines {
+  position: relative;
+}
+.LineRed {
+  width: 100%;
+  height: 124px;
+
+  background: linear-gradient(270deg, #C31E19 0%, #000000 97.4%);
+}
+.LineBlue {
+  width: 100%;
+  height: 124px;
+
+  background: linear-gradient(270deg, #3659AA 0%, #000000 97.4%); transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.Features {
+  position: relative;
+  display: block;
+  padding-top: 60px;
+  margin: 0 auto;
+  width: 100%
+}
+.FirstRowFeatures {
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.LLetter {
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 250px;
+
+
+  text-align: center;
+  text-transform: uppercase;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.XLetter {
+
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 250px;
+
+
+  text-align: center;
+  text-transform: uppercase;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
+.SlabsText {
+  margin-top: -30px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.EllipseL {
+  position: absolute;
+  margin: -210px 0px 0px 0px;
+}
+.XHeightText {
+  margin-top: -30px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.LinesX {
+  position: absolute;
+  margin: -300px 0px 0px 36px;
+}
+.AlternativesText {
+  margin-top: -30px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.KDLetters {
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 250px;
+
+
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'onum' on, 'ss02' on;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 89.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.SecondRowFeatures {
+  padding-top: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ArrowA {
+  position: absolute;
+  margin: -291px 0px 0px 36px;
+}
+.ContrastText {
+  margin-top: -30px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.ALetter {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 250px;
+
+
+  text-align: center;
+  text-transform: uppercase;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.MinusculeNumbers {
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 250px;
+
+
+  text-align: center;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'onum' on;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.OBLetters {
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 250px;
+
+
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'onum' on;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 86.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.NumbersText {
+  margin-top: -30px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.SmallCapsText {
+  margin-top: -30px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.ThirdRowFeatures {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.FractionText {
+  margin-top: -51px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.OrdinalText {
+  margin-top: -30px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.X-height {
+  margin-left: 90px;
+}
+.PunctuationText {
+  margin-top: -30px;
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+}
+.AFraction {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  margin-top: -30px;
+  width: 331px;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 300px;
+  text-align: center;
+  text-transform: uppercase;
+  font-feature-settings: 'ordn' on;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.AnOrdinal {
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 250px;
+
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'onum' on, 'ordn' on;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.PunctuationSigns {
+  font-family: 'Anglecia Pro Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 250px;
+  line-height: 250px;
+
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'onum' on, 'case' on;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 76.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Lines1 {
+  position: relative;
+  display: flex;
+  padding-top: 60px;
+}
+.LineBlue1 {
+  width: 70%;
+  height: 124px;
+
+  background: linear-gradient(270deg, #3659AA 0%, rgba(54, 89, 170, 0) 100%);
+}
+.LineRed1 {
+  width: 30%;
+  height: 124px;
+
+
+  background: linear-gradient(270deg, #C81E19 0%, rgba(200, 30, 25, 0) 100%);
+}
+.Languages {
+  position: relative;
+  display: block;
+  padding-top: 60px;
+  margin: 0 auto;
+  width: 100%
+}
+.SymbolsL {
+  margin-top: -560px;
+  width: 100%;
+}
+.BorderBoxL {
+  position: absolute;
+  height: 632px;
+  width: 1390px;
+  border-radius: 0px;
+
+  margin: 0 auto;
+  overflow: hidden;
+}
+.LanguageBox {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.LanguagesClass {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 70px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+#Language {
+  margin-bottom: 60px;
+}
+.Usage {
+  position: relative;
+  display: block;
+  margin-top: -1140px;
+  width: 100%
+}
+.Brochures {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.Films {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.Journals {
+  margin-top: 100px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.NumberOne {
+  position: absolute;
+  width: 180px;
+  height: 400px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 400px;
+  line-height: 400px;
+
+  background: linear-gradient(177.71deg, #DB2820 1.83%, #0E0302 68.82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: rotate(-8deg);
+}
+.FirstNaming {
+  position: absolute;
+  margin-top: 200px;
+  width: 362px;
+  height: 70px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+
+
+  color: #FFFFFF;
+
+  transform: rotate(-8deg);
+}
+.Headlines {
+  position: absolute;
+  margin-top: -1600px;
+  margin-left: 200px;
+}
+.NumberTwo {
+  position: absolute;
+  width: 260px;
+  height: 400px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 400px;
+  line-height: 400px;
+
+
+  background: linear-gradient(177.87deg, #3659AA 1.7%, #0E0302 74.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: rotate(5.97deg);
+}
+.SecondNaming {
+  position: absolute;
+  width: 311px;
+  height: 70px;
+  margin-top: 220px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+
+
+  color: #FFFFFF;
+
+  transform: rotate(5.97deg);
+}
+.Movies {
+  position: absolute;
+  margin-top: -1400px;
+  margin-left: 1100px;
+}
+.NumberThree {
+  position: absolute;
+  width: 270px;
+  height: 400px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 400px;
+  line-height: 400px;
+
+
+
+  background: linear-gradient(177.87deg, #9154A2 1.7%, #0E0302 74.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transform: rotate(-5.94deg);
+}
+.ThirdNaming {
+  position: absolute;
+  width: 342px;
+  height: 70px;
+  margin-top: 220px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+
+
+
+  color: #FFFFFF;
+
+  transform: rotate(-5.94deg);
+}
+.Magazines {
+  position: absolute;
+  margin-top: -2380px;
+  margin-left: 200px;
+}
+.Flower1 {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.FinalText {
+  margin: -680px 0 0 50px;
+
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+#HugeText {
+  font-family: 'Anglecia Pro Display';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
 }
