@@ -61,8 +61,8 @@ h2 {
   position: absolute;
   width: 908px;
   height: 36px;
-  left: 341.29px;
-  top: 295.99px;
+  left: 341px;
+  top: 295px;
 
   font-family: 'Anglecia Pro Display';
   font-style: italic;
@@ -81,10 +81,10 @@ h2 {
 }
 .VLetter {
   position: absolute;
-  width: 862.99px;
-  height: 891.63px;
+  width: 862px;
+  height: 891px;
   left: 1020px;
-  top: 442.86px;
+  top: 442px;
 
   font-family: 'Anglecia Pro Text';
   font-style: italic;
@@ -107,10 +107,10 @@ h2 {
 }
 .BLetter {
   position: absolute;
-  width: 437.53px;
-  height: 646.63px;
-  left: 485.45px;
-  top: 897.22px;
+  width: 437px;
+  height: 646px;
+  left: 485px;
+  top: 897px;
 
   font-family: 'Anglecia Pro Text';
   font-style: italic;
@@ -133,10 +133,10 @@ h2 {
 }
 .ULetter {
   position: absolute;
-  width: 510.21px;
-  height: 465.63px;
-  left: 31.5px;
-  top: 1605.78px;
+  width: 510px;
+  height: 465px;
+  left: 31px;
+  top: 1605px;
 
   font-family: 'Anglecia Pro Text';
   font-style: italic;
@@ -159,9 +159,9 @@ h2 {
 }
 .KLetter {
   position: absolute;
-  width: 499.68px;
-  height: 530.63px;
-  left: 886.67px;
+  width: 500px;
+  height: 530px;
+  left: 886px;
   top: 1792px;
 
   font-family: 'Anglecia Pro Text';
