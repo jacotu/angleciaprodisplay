@@ -99,7 +99,11 @@ h2 {
   background-clip: text;
   text-fill-color: transparent;
 
-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+.VLetter:hover {
+    scale: 110%;
+    transition: all .8s ease-out;
 }
 .BLetter {
   position: absolute;
@@ -123,6 +127,10 @@ transform: rotate(-10deg);
 
   transform: rotate(10deg);
 }
+.BLetter:hover {
+    scale: 110%;
+    transition: all .8s ease-out;
+}
 .ULetter {
   position: absolute;
   width: 510.21px;
@@ -145,6 +153,10 @@ transform: rotate(-10deg);
 
   transform: rotate(-13.66deg);
 }
+.ULetter:hover {
+    scale: 110%;
+    transition: all .8s ease-out;
+}
 .KLetter {
   position: absolute;
   width: 499.68px;
@@ -166,6 +178,10 @@ transform: rotate(-10deg);
   text-fill-color: transparent;
 
   transform: rotate(19.49deg);
+}
+.KLetter:hover {
+    scale: 110%;
+    transition: all .8s ease-out;
 }
 .RedDescription {
     margin-top: 115px;
@@ -282,6 +298,10 @@ transform: rotate(-10deg);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.Letters:hover {
+    scale: 110%;
+    transition: all .8s ease-out;
 }
 .ILetter {
   width: 559.47px;
