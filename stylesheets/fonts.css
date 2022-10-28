@@ -84,6 +84,12 @@
 }
 @font-face {
   font-family: 'Anglecia Pro Text';
+  src: url('fonts/AngleciaProText-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anglecia Pro Text';
   src: url('fonts/AngleciaProText-Black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
@@ -117,12 +123,6 @@
   src: url('fonts/AngleciaProText-ExtraLight') format('opentype');
   font-weight: 200;
   font-style: normal;
-}
-@font-face {
-  font-family: 'Anglecia Pro Text';
-  src: url('fonts/AngleciaProText-Italic') format('opentype');
-  font-weight: 400;
-  font-style: italic;
 }
 @font-face {
   font-family: 'Anglecia Pro Text';
